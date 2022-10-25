@@ -1,0 +1,40 @@
+{
+    "trips": [
+        {
+            "title": "2 Night Stay in Paris",
+            "price": "$9000",
+            "location": "europe",
+            "id": "1"
+        },
+        {
+            "title": "3 Night Stay in Mont Saint-Michel in Normandy",
+            "price": "$5000",
+            "location": "europe",
+            "id": "2"
+        },
+        {
+            "title": "5 Night Stay in New York",
+            "price": "$600",
+            "location": "amarica",
+            "id": "3"
+        },
+        {
+            "title": "4 Night Stay in London",
+            "price": "$3000",
+            "location": "europe",
+            "id": "4"
+        },
+        {
+            "title": "8 Night Stay in Dhaka",
+            "price": "$700",
+            "location": "Bangladesh",
+            "id": "5"
+        },
+        {
+            "title": "8 Night Stay in Cox's Bazaar",
+            "price": "$900",
+            "location": "Bangladesh",
+            "id": "6"
+        }
+    ]
+}

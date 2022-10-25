@@ -1,0 +1,41 @@
+$primary: #23283e;
+$text-color: #90a0d9;
+
+.recipe-details {
+    background-color: $text-color;
+    color: $primary;
+    background-color: #90a0d9;
+    color: #23283e;
+    padding: 30px 20px;
+    border-radius: 4px;
+    &.light {
+        background-color: white;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        transition: all 0.3s ease;
+    }
+    &.dark {
+        background-color: #444;
+        color: #f4f4f4;
+        box-shadow: #0e1e251f 0px 2px 4px 0px, #0e1e2552 0px 2px 16px 0px;
+        transition: all 0.3s ease;
+    }
+    h1 {
+        font-size: 4rem;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .cooking-time {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .ingredients {
+        margin-bottom: 20px;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .method {
+        font-size: 2rem;
+        line-height: 2;
+    }
+}

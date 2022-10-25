@@ -1,0 +1,16 @@
+.heading {
+    &.dark {
+        color: aliceblue;
+    }
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 5.5rem;
+    span {
+        text-decoration: underline;
+    }
+}
+
+.error {
+    color: red;
+    text-align: center;
+}

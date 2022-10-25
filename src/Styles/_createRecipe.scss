@@ -1,0 +1,65 @@
+$primary: #23283e;
+$text-color: #90a0d9;
+.create-page {
+    width: 100%;
+    h1.title {
+        font-size: 3rem;
+        margin-bottom: 30px;
+    }
+    form {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 100%;
+        label {
+            width: 100%;
+            margin-bottom: 25px;
+            font-size: 1.8rem;
+            &.cooking-ingredient-lebel {
+            }
+            span {
+                margin-bottom: 5px;
+                display: inline-block;
+            }
+            input {
+                width: 100%;
+                padding: 8px 10px;
+                font-size: 1.8rem;
+            }
+            textarea {
+                width: 100%;
+                padding: 8px 10px;
+                font-size: 1.8rem;
+            }
+        }
+        .ingredient-input-outer {
+            width: 100%;
+            margin-bottom: 20px;
+            .ingredient-input-inner {
+                width: 100%;
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-start;
+                margin-bottom: 5px;
+                label {
+                    margin-right: 20px;
+                    margin-bottom: 0px;
+                    width: 100%;
+                }
+                button {
+                    padding: 10px 60px;
+                    font-size: 1.8rem;
+                }
+            }
+            p {
+                &.dark {
+                    color: $text-color;
+                    span {
+                        color: $text-color;
+                    }
+                }
+            }
+        }
+    }
+}
